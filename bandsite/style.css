@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(0, 0, 0, 0.719);
+    color: rgb(105, 11, 11);
+}
+
+img {
+    width: 250px;
+}
+
+nav {
+    background-color: rgb(123, 123, 124);
+}
+
+header {
+    background-image: url(https://img.nieuwsblad.be/Nee1VVWsPxx5AFNUz5nRqMAmQ18=/fit-in/960x640/https%3A%2F%2Fstatic.nieuwsblad.be%2FAssets%2FImages_Upload%2F2022%2F01%2F12%2Fa98df8f2-1511-469f-ab41-1ac9db6a340a.jpg);
+    background-size: 112px;
+}
+
+header h1 {
+    color: rgb(255, 255, 255);
+}
+
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: rgb(218, 203, 209);
+    color: red;
+}
+
+main {
+    background-color: rgba(109, 98, 98, 0.548);
+ padding: 20px;}
+h5{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+h4{font-family: 'Arial', "Helvetica Neue", Helvetica, sans-serif;}
