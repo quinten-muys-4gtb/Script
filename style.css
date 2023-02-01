@@ -1,4 +1,5 @@
-body{background-color: rgb(179, 169, 169);
+body{
+    background: url(foto.jpg) no-repeat;
 font-family: Georgia, 'Times New Roman', Times, serif;}
 main{
     padding: 20px;
