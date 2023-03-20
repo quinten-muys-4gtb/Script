@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Raad het getal</title>
+</head>
+<body>
+	<h1>Welkom bij Raad het getal!</h1>
+	<p>Ik heb een getal in gedachten tussen 1 en 10. Kun jij het raden?</p>
+	<input type="text" id="guessInput">
+	<button onclick="checkGuess()">Raad!</button>
+	<p id="result"></p>
+
+	<script>
+		// genereer een willekeurig getal tussen 1 en 10
+		var number = Math.floor(Math.random() * 10) + 1;
+
+		// initialiseer het aantal kansen op 3
+		var guessCount = 3;
+
+		function checkGuess() {
+			// krijg de ingevoerde gok van de speler
+			var guess = parseInt(document.getElementById("guessInput").value);
+
+			// controleer of de gok juist is
+			if (guess === number) {
+				document.getElementById("result").innerHTML = "Je hebt het juiste getal geraden! Gefeliciteerd!";
+			} else {
+				// als de gok onjuist is, verminder dan het aantal kansen en geef aan of het getal te hoog of te laag is
+				guessCount--;
+				if (guessCount === 0) {
+					document.getElementById("result").innerHTML = "Helaas, je hebt geen kansen meer over. Het juiste getal was " + number + ".";
+				} else {
+					if (guess > number) {
+						document.getElementById("result").innerHTML = "Helaas, dat getal is te hoog. Je hebt nog " + guessCount + " kansen over.";
+					} else {
+						document.getElementById("result").innerHTML = "Helaas, dat getal is te laag. Je hebt nog " + guessCount + " kansen over.";
+					}
+				}
+			}
+		}
+	</script>
+</body>
+</html>
