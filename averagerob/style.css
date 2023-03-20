@@ -1,0 +1,32 @@
+html>
+CSS
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+ 
+    padding: 5%;
+    background-color: rgb(255, 191, 0);
+}
+header nav li {
+    display: inline
+}
+header img{
+   width: 122px;
+}
+header input {
+    border-radius:5px;
+    padding: 3px 10px;
+    width: 120px;
+}
