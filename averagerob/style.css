@@ -30,3 +30,6 @@ header input {
     padding: 3px 10px;
     width: 120px;
 }
+video{
+    width: 100%;
+}
