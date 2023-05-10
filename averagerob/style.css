@@ -1,13 +1,14 @@
-html>
-CSS
-body {
+html>CSS body {
     background-color: rgb(255, 255, 255);
 }
 
 .flex-container {
     display: flex;
     justify-content: space-evenly;
+    gap: 2vw;
 }
+
+
 * {
     margin: 0;
     padding: 0;
@@ -15,21 +16,137 @@ body {
 
 
 header {
- 
+
     padding: 5%;
-    background-color: rgb(255, 191, 0);
+    background-color: rgb(69, 97, 255);
 }
+
 header nav li {
     display: inline
 }
-header img{
-   width: 122px;
+
+header img {
+    width: 122px;
 }
+
 header input {
-    border-radius:5px;
-    padding: 3px 10px;
+    border-radius: 10px;
+    padding: 8px 10px;
     width: 120px;
 }
-video{
+
+header i {
+    font-size: 2rem;
+}
+
+video {
     width: 100%;
+    overflow: auto;
+}
+
+main {
+    background-color: rgb(69, 97, 255)
+}
+
+#beeldverhouding img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 5 / 6;
+    object-fit: cover;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(69, 97, 255);
+    color: hsl(240, 45%, 8%);
+    font-family: monospace;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+h3 {
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+section {
+    padding: 2vw;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+main .flex-container div {
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: rgb(69, 97, 255);
+
+}
+
+.flex-item {
+    flex: 1;
+}
+
+
+footer img {
+    width: 3rem;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 12pt;
+    padding: 10px;
+}
+
+h4 {
+    font-size: 20pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+   
+}
+
+H2 {
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px
+}
+
+h1 {
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section image {
+    size: 20px;
+}
+
+h6 {
+    padding-right: 10px;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: black;
+}
+
+
+#products img {
+    width: 40%;
 }
